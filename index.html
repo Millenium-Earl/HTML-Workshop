@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkpoint HTML></title>
+    <link rel="stylesheet" href="css/Style.css">
+    <title>Checkpoint HTML</title>
 </head>
 <body>
 <header>
     <nav>
-        <div class="gauche"> <p> Portfolio générique</p></div>   
+        <div class="nav-gauche"> <p> Portfolio générique</p></div>   
     
     
-    <div class="droite"> 
+    <div class="nav-droite"> 
         <ul>
             <li> <a href="#home"> Home </a> </li>
             <li> <a href="#projects">Projects</a> </li>
@@ -22,24 +23,33 @@
 </header>
 <main>
 
+<div class="MainContent">
 
     <section id="home">
+        <div class="texte">
         <div class="Title">
             <h1> Welcome to my Porfolio</h1>
         </div>
-        <div class="Me">
-            <img src="Me.jpg" alt="">
-        </div>
+        
         <div class="Pres">
             <p>A software developper, Data scientist, Black mage and the Millennium Earl himself</p>
+        </div>
+    </div>
+        <div class="Pic">
+            <img src="res/Me.jpg" alt="">
         </div>
     </section>
 
     <section id="projects">
-        <div class="projets">
+
+        <div class="Title" > 
             <h1>Projects</h1>
+        </div>
+        <div class="projets">
+
+            
                 <div class="cadre"> 
-                    <div> <img src="The Explorer.jpg" alt="">
+                    <div> <img src="res/TheExplorer3.jpg" alt="">
                      </div>
 
                      <div class="titreImage">
@@ -51,7 +61,7 @@
                 </div>
 
                 <div class="cadre"> 
-                    <div> <img src="Starcraft.jpg" alt="">
+                    <div> <img src="res/Starcraft.jpg" alt="">
                      </div>
 
                      <div class="titreImage">
@@ -64,7 +74,7 @@
                
 
                 <div class="cadre"> 
-                    <div> <img src="question.jpg" alt="">
+                    <div> <img src="res/question.jpg" alt="">
                      </div>
 
                      <div class="titreImage">
@@ -102,18 +112,18 @@
 
 
     </section>
+</div>
     
 </main>
 
 <footer>
     <div class="footer">
         <ul>
-            <li> <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-256.png" alt=""></li>
-            <li><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-256.png" alt=""></li>
+            <li>  <a href="https://web.facebook.com/Leader.Big.A/"> <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-256.png" alt=""> </a></li>
+            <li><a href=""><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-256.png" alt=""></a></li>
         </ul>
         
     </div>
 </footer>
-    
 </body>
 </html>
